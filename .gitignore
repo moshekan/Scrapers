@@ -104,4 +104,7 @@ venv.bak/
 .mypy_cache/
 
 .idea/
-*new_weski_env*
+*_virtualenv/
+*.DS_Store*
+
+

@@ -135,6 +135,7 @@ class WeSki(object):
             'length': length,
             'site': site_name,
             'url': url,
+            # Easy to use for Excel
             'hyperlink': '=HYPERLINK("{0}", "Link")'.format(url),
         }
 
@@ -165,8 +166,7 @@ def main():
                 current_date += datetime.timedelta(1)
 
         executor.shutdown()
-        result_saver.dump_to_csv("new6.csv")
-        result_saver.dump_to_json("new6.json")
+        result_saver.dump_to_csv("output.csv")
 
     finally:
         driver_list.close()
