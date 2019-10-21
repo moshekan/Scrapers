@@ -15,7 +15,7 @@ ptyprocess==0.6.0
 Pygments==2.2.0
 python-dateutil==2.7.3
 python-utils==2.3.0
-scapy==2.4.0
+scapy==2.4.1
 selenium==3.141.0
 simplegeneric==0.8.1
 six==1.11.0
