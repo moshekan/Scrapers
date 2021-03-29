@@ -12,7 +12,7 @@ progressbar2==3.38.0
 prompt-toolkit==1.0.15
 prufer==0.1
 ptyprocess==0.6.0
-Pygments==2.2.0
+Pygments==2.7.4
 python-dateutil==2.7.3
 python-utils==2.3.0
 scapy==2.4.0
